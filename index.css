@@ -1,0 +1,65 @@
+header {
+	background: no-repeat center center;
+	background-size: cover;
+	color: white;
+}
+
+.color-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+	min-height: 60vh;
+} 
+
+.singleCol {
+	max-width: 750px;
+}
+.btn1{
+	display: inline;
+	margin-left: 3rem;
+    border-radius: 5rem;
+    background: #999;
+    color: rgb(255, 255, 255);
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 15px;
+	text-decoration: none;
+	box-shadow: 0 1px 10px rgba(189, 185, 185, 0.3);
+}
+.btn1:hover{
+    background: rgb(255, 255, 255);
+	color: #000000;
+}
+
+
+footer {
+	padding-top: 15px;
+     background-color: #3a3a3a;
+
+}
+
+footer a{
+     color: white;
+}
+
+footer a:hover{
+     color: #dfdfdf;
+
+}
+
+
+
+@media (max-width: 767.98px){
+	.color-overlay {
+		min-height: 30vh;
+	}
+}
+.card{
+	border-radius: 10px;
+	box-shadow: 0 1px 10px rgb(0 0 0 / 30%);
+}
+.card:hover{
+	transition: .5s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+
