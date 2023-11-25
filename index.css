@@ -11,10 +11,14 @@ header {
 	background-color: rgba(0, 0, 0, 0.4);
 	min-height: 60vh;
 }
+.navvy{
+	background-color: #3a3a3a;
+}
 
 .nav-link{
-	color: #313131;
+	color: #ffffff;
 }
+
 .singleCol {
 	max-width: 750px;
 }
@@ -56,6 +60,16 @@ p{
 .card:hover{
 	transition: .5s ease-in-out;
     transform: scale(1.1);
+}
+
+.navbar-light, .navbar-toggler{
+	color: white;
+	border-color: white;
+}
+
+.navbar-light, .navbar-toggler:hover{
+	color: azure;
+	border-color: azure;
 }
 
 
