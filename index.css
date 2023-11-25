@@ -92,6 +92,13 @@ footer a:hover{
 	.color-overlay {
 		min-height: 40vh;
 	}
+	header .color-overlay {
+	  flex-direction: column;
+	  align-items: center;
+	}
+	  header .btn {
+		margin-top: 10px;
+	  }
 }
 
 @media (max-width: 829px) {
